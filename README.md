@@ -8,7 +8,7 @@ Unleash Quality Brilliance with ProCheck: Your Manufacturing Excellence Companio
 - determine design, fields, form validation for login and signup pages
 - page for password reset (/reset-password)
 - user must agree to terms and conditions 
-- JWT (for POST)
+
 
 2. backend
 
@@ -16,4 +16,30 @@ Unleash Quality Brilliance with ProCheck: Your Manufacturing Excellence Companio
 - login validating credentials
 - password reset 
 - Encryption
-- JWT 
+
+
+
+1. front-end final draft
+
+-  design:
+  login.jsx  = localhost:300/login
+  sigup.jsx = localhost:3000/signup
+  App.js = localhost:3000 ->  islogin    if(islogin){show actual home page}
+                                            else{
+                                                show login component ->
+                                                onClick.Signup -> { show signup component }}
+- determine fields:
+   signup:
+   firstname, lastname, email, username, password
+   validation:
+   ?
+   
+#second-draft
+
+1. frontend
+     - react axios /login and /signup method=post 
+
+    
+
+
+
