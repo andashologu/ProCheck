@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import LoginSignup from './Components/LoginSignup/LoginSignup';
+import SignupLogin from './Components/SignupLogin/home';
+
 
 function App() {
   return (
     <div >
-      <LoginSignup/>
+      <SignupLogin/>
     </div>
   );
 }
