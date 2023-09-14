@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
+}
+
+body{
+  background-color: #b6b6b675;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+p{
+  color: #d30023;
+  font-size: 14px;
+}
+
+label{
+  font-weight: 500;
+  color: #000000;
+}
+
+.container{ 
+  background: #fff;
+  width: 500px;
+  box-shadow: 5px 5px 10px #5555553d;
+   
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+ 
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px; 
+}
+
+.link a{
+  color: #333333;
+}
+
+.link a:hover{
+  text-decoration: underline;
+}
+
+
+.header header{
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  border-bottom: 1px solid #b6b6b6a8; 
+}
+
+.login{
+  padding: 25px;
+}
+
+.login form{
+  padding: 25px;
+}
+
+.login form .details{
+  display: flex;
+  
+}
+
+.login form .details .field.input:first-child{
+  margin-right: 10px;
+}
+
+.login form .details .field.input:second-child{
+  margin-left: 10px;
+}
+
+.login form .field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login form .field input{
+ outline: none;
+}
+
+.login form .field.input input:focus{
+  outline: none;
+}
+
+.login form .field.input.success input{
+  border-color: #0ebd7a;
+}
+
+.login form .field.input.error input{
+  border-color: #d62c48c2;
+}
+
+.login form .field.input .error{
+  color: #d82b4e;
+  font-size: 12px;
+  height: 13px;
+}
+
+.login form .field input{
+ 
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 40px;
+  border: 1px solid #cccccc86;
+  box-shadow: 5px 3px 10px #5555551f;
+  
+}
+
+.login form button{
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  background: #333333;
+  color: #ffffffe0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.icon{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+}
+
