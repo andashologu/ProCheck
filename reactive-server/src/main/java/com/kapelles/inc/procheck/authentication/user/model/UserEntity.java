@@ -1,4 +1,4 @@
-package com.kapelles.procheck.authenication.Model;
+package com.kapelles.inc.procheck.authentication.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -33,4 +33,7 @@ public class UserEntity {
 
     @Column("username")
     private String username;
+
+    @Column("password")
+    private String password;
 }

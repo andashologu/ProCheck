@@ -2,11 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-ReactiveApplication<reactive-app>",
+            "name": "Spring Boot-ProCheckApplication<reactive-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.kapelles.procheck.ReactiveApplication",
-            "projectName": "reactive-app",
+            "mainClass": "com.kapelles.inc.procheck.ProCheckApplication",
+            "projectName": "reactive-server",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
