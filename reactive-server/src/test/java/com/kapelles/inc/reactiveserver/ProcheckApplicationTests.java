@@ -1,10 +1,10 @@
-package com.kapelles.reactive;
+package com.kapelles.inc.reactiveserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReactiveApplicationTests {
+class ProcheckApplicationTests {
 
 	@Test
 	void contextLoads() {
